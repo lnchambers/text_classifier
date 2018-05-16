@@ -1,18 +1,18 @@
 defmodule NaiveBayes do
   @moduledoc """
-  Documentation for NaiveBayes.
+  A simple Naive Bayes text classification algorithm.
   """
 
   @doc """
-  Hello world.
 
   ## Examples
 
-      iex> NaiveBayes.hello
-      :world
+      iex> NaiveBayes.what_are_you()
+      "A text classification engine designed using Naive Bayes."
 
   """
-  def hello do
-    :world
+
+  def what_are_you do
+    "A text classification engine designed using Naive Bayes."
   end
 end
